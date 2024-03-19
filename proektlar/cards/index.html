@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards and carusel</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
+<body>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+        <div class="carousel-inner w-75 vh-100 d-flex justify-content-center align-items-center ">
+            <div class="carousel-item active">
+                <div class="card" style="width:400px">
+                    <img class="card-img-top" src="https://www.w3schools.com/bootstrap5/img_avatar1.png" alt="Card image">
+                    <div class="card-body">
+                        <h4 class="card-title">John Doe 1</h4>
+                        <p class="card-text">Some example text.</p>
+                        <a href="#" class="btn btn-primary">See Profile</a>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+
+            </div>
+        </div>
+
+        <!-- Left and right controls/icons -->
+        <button class="carousel-control-prev vh-100" type="button" data-bs-target="#demo" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bg-black"></span>
+        </button>
+        <button class="carousel-control-next vh-100" type="button" data-bs-target="#demo" data-bs-slide="next">
+          <span class="carousel-control-next-icon bg-black"></span>
+        </button>
+    </div>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

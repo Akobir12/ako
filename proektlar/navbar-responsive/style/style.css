@@ -1,0 +1,142 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    .nav {
+        margin: 0 auto;
+        width: 95%;
+        height: 80px;
+        background-color: #000;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .display-blok {
+        width: 95%;
+        height: 80px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .logo h1 {
+        color: #fff;
+        font-size: 30px;
+    }
+    
+    .link-logo {
+        width: 45%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-transform: uppercase;
+        font-size: 16px;
+    }
+    
+    .link-logo a {
+        color: #fff;
+    }
+    
+    .link-logo a:hover {
+        color: aquamarine;
+    }
+    
+    .bxs-server {
+        font-size: 30px;
+        color: #000;
+    }
+    
+    .dropdown {
+        cursor: pointer;
+        display: none;
+        position: relative;
+    }
+    
+    .drop {
+        position: absolute;
+        top: 56px;
+        left: -155px;
+        display: block;
+        width: 200px;
+        height: 430px;
+        background-color: #f5f5f5;
+        display: none;
+        justify-content: flex-start;
+        align-content: space-around;
+        flex-direction: column;
+    }
+    
+    .drop a {
+        display: block;
+        padding-top: 15px;
+        width: 200px;
+        height: 70px;
+        font-size: 30px;
+    }
+    
+    .drop a:hover {
+        background-color: aquamarine;
+    }
+    
+    .dropdown h1 {
+        color: #fff;
+    }
+    
+    .dropdown:active .drop {
+        cursor: pointer;
+        display: block;
+    }
+    
+    .bxs-server {
+        font-size: 30px;
+        color: #000;
+    }
+    
+    @media screen and (max-width: 1200px) {
+        .link-logo {
+            width: 50%;
+        }
+        .logo h1 {
+            font-size: 28px;
+        }
+    }
+    
+    @media screen and (max-width: 1000px) {
+        .logo h1 {
+            font-size: 24px;
+        }
+        .link-logo {
+            width: 60%;
+        }
+        .link-logo a {
+            font-size: 15px;
+        }
+    }
+    
+    @media screen and (max-width: 750px) {
+        .link-logo {
+            width: 75%;
+        }
+        .link-logo a {
+            font-size: 14px;
+        }
+    }
+    
+    @media screen and (max-width: 675px) {
+        .link-logo.link-logo a {
+            color: #fff;
+            font-size: 14px;
+        }
+        .link-logo {
+            display: none;
+        }
+        .dropdown {
+            display: block;
+        }
+    }

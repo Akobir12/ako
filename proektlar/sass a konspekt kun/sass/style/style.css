@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap       ");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: Rubik;
+}
+
+.boxcontainer {
+  width: 940px;
+  height: 756px;
+  margin: 0 auto;
+}
+.boxcontainer .items {
+  margin-top: 50px;
+  display: flex;
+}
+.boxcontainer .items .list-text-firs {
+  cursor: pointer;
+  text-transform: uppercase;
+  font: 500 12px/20px Rubik;
+  color: #363940;
+  margin-right: 12px;
+  margin-top: 10px;
+  margin-left: 283px;
+}
+.boxcontainer .items .list-text {
+  cursor: pointer;
+  text-transform: uppercase;
+  font: 500 12px/20px Rubik;
+  color: #363940;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.boxcontainer .form input {
+  width: 220px;
+  height: 46px;
+  margin-left: 44px;
+  border-radius: 5px;
+  border: 1px solid #CAD1E1;
+  padding: 12px 5px 12px 45px;
+}
+.boxcontainer .form {
+  position: relative;
+}
+.boxcontainer .form .bx-search {
+  color: #95A1BB;
+  position: absolute;
+  top: 13px;
+  left: 60px;
+}
+.boxcontainer .form .bx-search {
+  color: #95A1BB;
+  position: absolute;
+  top: 13px;
+  left: 60px;
+}
+.boxcontainer .box-botton {
+  display: flex;
+  justify-content: space-between;
+}
+.boxcontainer .box-botton .img {
+  margin-top: 40px;
+  margin-right: -230px;
+}
+.boxcontainer .box-botton .content {
+  margin-top: 179px;
+}
+.boxcontainer .box-botton .contenth1 {
+  color: #363940;
+  font: 500 58px/68px Rubik;
+  margin-bottom: 30px;
+}
+.boxcontainer .box-botton .content .forms .input-submit {
+  transition: all 1s;
+  border: 1px solid #6E38F7;
+  border-radius: 5px;
+  font: 500 12px/20px Rubik;
+  letter-spacing: 2px;
+  width: 133px;
+  height: 46px;
+  background-color: #6E38F7;
+  color: #fff;
+}
+.boxcontainer .box-botton .content .forms .input-submit:hover {
+  color: #6E38F7;
+  background-color: #fff;
+}
+.boxcontainer .box-botton .content .forms .input-text {
+  margin-top: 30px;
+  transition: all 0.5s;
+  padding-left: 15px;
+  width: 241px;
+  height: 46px;
+  font: 500 16px/22px Rubik;
+  border-radius: 4px;
+  border: 1px solid #CAD1E1;
+}/*# sourceMappingURL=style.css.map */

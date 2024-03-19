@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap       ');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: Rubik;
+}
+
+$font: 500 58px/68px Rubik;
+$font-input: 500 16px/22px Rubik;
+$list-text: 500 12px/20px Rubik;
+.boxcontainer {
+    width: 940px;
+    height: 756px;
+    margin: 0 auto;
+    .items {
+        margin-top: 50px;
+        display: flex;
+        .list-text-firs {
+            cursor: pointer;
+            text-transform: uppercase;
+            font: $list-text;
+            color: #363940;
+            margin-right: 12px;
+            margin-top: 10px;
+            margin-left: 283px;
+        }
+        .list-text {
+            cursor: pointer;
+            text-transform: uppercase;
+            font: $list-text;
+            color: #363940;
+            margin-right: 15px;
+            margin-top: 10px;
+        }
+    }
+    .form input {
+        width: 220px;
+        height: 46px;
+        margin-left: 44px;
+        border-radius: 5px;
+        border: 1px solid #CAD1E1;
+        padding: 12px 5px 12px 45px;
+    }
+    .form {
+        position: relative;
+        .bx-search {
+            color: #95A1BB;
+            position: absolute;
+            top: 13px;
+            left: 60px;
+        }
+        .bx-search {
+            color: #95A1BB;
+            position: absolute;
+            top: 13px;
+            left: 60px;
+        }
+    }
+    .box-botton {
+        display: flex;
+        justify-content: space-between;
+        .img {
+            margin-top: 40px;
+            margin-right: -230px;
+        }
+        .content {
+            margin-top: 179px;
+            &h1 {
+                color: #363940;
+                font: $font;
+                margin-bottom: 30px;
+            }
+            .forms {
+                .input-submit {
+                    transition: all 1s;
+                    border: 1px solid #6E38F7;
+                    border-radius: 5px;
+                    font: $list-text;
+                    letter-spacing: 2px;
+                    width: 133px;
+                    height: 46px;
+                    background-color: #6E38F7;
+                    color: #fff;
+                    &:hover {
+                        color: #6E38F7;
+                        background-color: #fff;
+                    }
+                }
+                .input-text {
+                    margin-top: 30px;
+                    transition: all 0.5s;
+                    padding-left: 15px;
+                    width: 241px;
+                    height: 46px;
+                    font: $font-input;
+                    border-radius: 4px;
+                    border: 1px solid #CAD1E1;
+                }
+            }
+        }
+    }
+}
